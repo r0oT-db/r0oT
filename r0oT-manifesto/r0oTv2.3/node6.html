@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>processing and transmission</TITLE>
+<META NAME="description" CONTENT="processing and transmission">
+<META NAME="keywords" CONTENT="r0oTv2.3">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="r0oTv2.3.css">
+
+<LINK REL="next" HREF="node7.html">
+<LINK REL="previous" HREF="node5.html">
+<LINK REL="up" HREF="r0oTv2.3.html">
+<LINK REL="next" HREF="node7.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A NAME="tex2html109"
+  HREF="node7.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html107"
+  HREF="r0oTv2.3.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html101"
+  HREF="node5.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html110"
+  HREF="node7.html">locality</A>
+<B> Up:</B> <A NAME="tex2html108"
+  HREF="r0oTv2.3.html">r0oT</A>
+<B> Previous:</B> <A NAME="tex2html102"
+  HREF="node5.html">informaction</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00060000000000000000">
+processing and transmission</A>
+</H1>
+
+<P>
+In r0oT, informaction is processed in stations in the form of <I>reports</I> and they
+are mainly transmitted through the Internet, usually through relatively secure
+email services like Tutanota [<A
+ HREF="node12.html#tutanota">64</A>] or i2p secure mail [<A
+ HREF="node12.html#i2p">65</A>]. The idea is simple: a station
+receives a report from another neighbor station, so the members and the agent
+have some time to process and resend it to their own neighboring stations.
+Each report can contain information alone or include proposals of direct action as well, so both
+aspects have to be dealt with. Once the action is performed and the information is processed,
+the station forwards the updated report. Where? There are four directions in which reports
+are received and sent. First: angular flows, where we communicate with our two next-neighbors
+in our same layer. Not a big processing is required to forward in angular directions, because
+both belong to the same radius or layer in the overall `onion'. The angular direction has
+two variants: clockwise and counterclockwise. If we receive a report clockwise, we forward it
+clockwise, and the same for the opposite sign of rotation. Radial directions are more elaborated,
+since they involve a change of layer. Reports travel radially in two ways: outwards and inwards.
+If we receive a report that comes from an inner layer, then we propagate it outwards. But
+if we receive it from an outer layer, we propagate it inwards and also outwards to those branches
+where it did not come from (notice that a station will receive an inward report from just
+one of the many branches it connects, so we need to propagate the message outwards to the others).
+Apart from all this, the informaction needs to be transformed when it changes layers. The
+most inner layers will deal with more abstract, universal concepts, while outer layers
+will need to deal with informaction in a more practical, direct fashion, and always adapted
+to local idiosyncrasies like for example local languages or cultures. Global, inner layers will use
+simple English to communicate while local layers can use local languages.
+ It is then necessary for the station to adapt the contents of
+the reports to the layer it targets, and only with time we will all learn how to do this well, what
+is more appropriate for each layer.
+Of course, each report will reflect the history of previous reports on a given topic, for
+everyone to check its evolution and detect possible manipulations. Furthermore, reports
+can be merged and split as needed. 
+
+<P>
+Each report will come with a priority number (PN), from 1 to 4. If PN=1, it means the report
+has slow speed of transmission. This does not mean that it is not important. On the contrary: a very important
+topic needs longer times to be thought, discussed and processed. So if PN=1, the station must
+forward its processed report within 28 days. If PN=2, we have a medium speed report,
+in which the station has 14 days. The propagation speed will increase but the quality of
+processing may be lower. PN=3 will imply fast mode, with 24 hours to resend it. Finally,
+PN=4 will imply maximum speed priority, in which almost no processing will be done. Depending
+on the topic, sometimes speed will be more important than processing, or the opposite. The
+relevant thing to understand here is that we cannot maximize both speed and processing.
+PN numbers can change in the course
+of its travel along the network, but the details of this, as with many other topics, are not
+the goal of this introductory text. In Figure <A HREF="#fig05">5</A> we show some of the details of
+informaction speed and processing as well as other aspects of the network.
+
+<DIV ALIGN="CENTER">
+
+<P><A NAME="fig05"></A></P><IMG
+ WIDTH="1200" ALIGN="BOTTOM" BORDER="0"
+ SRC="img7.png"
+ ALT="\begin{framed}
+% latex2html id marker 118\centering
+\includegraphics[scale=0...
+...st people, in
+layer 13, will experience by participating in r0oT.
+}
+\end{framed}">
+</DIV>
+Figure 5: <i>Infographic of some details of the r0oT network. The three left color circles represent
+the angular and radial flows that informaction acquires. The black circles on the left show what
+we mean by angular and radial directions. In the middle column we find the
+numbers of how many people can be in each layer, as well as the percentage of the current total
+population of about 7.4 billion people. Notice how, reaching layer 11 we could acquire a high
+degree of coordination while involving about half of 1\%. We have also depicted two radial
+arrows representing the radial gradient of abstraction/specificity that can naturally appear in the
+network. Inner layers will probably tend to deal with more global topics while outer
+layers will probably deal with more local, direct, practical subjects. However,
+the structure of r0oT is thought in such a way that inner layers also act as propagators
+of local topics while local layers act as promoters of global issues. 
+There is also a radial arrow depicting locality. This means that the network has global
+inner layers, with their members as mixed as possible throughout the world, while
+external layers will engineered to be local, where network neighbors will be also real world
+neighbors. Four colored radial arrows represent the 4 speeds and processing depths
+of the reports: green for slow speed and high processing, yellow for medium speed
+and medium processing, orange for high speed and low processing and red for maximum
+speed and minimum processing. Every choice has a price. Now we move to what most people, in
+layer 13, will experience by participating in r0oT.</i>
+
+<P>
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A NAME="tex2html109"
+  HREF="node7.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html107"
+  HREF="r0oTv2.3.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html101"
+  HREF="node5.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html110"
+  HREF="node7.html">locality</A>
+<B> Up:</B> <A NAME="tex2html108"
+  HREF="r0oTv2.3.html">r0oT</A>
+<B> Previous:</B> <A NAME="tex2html102"
+  HREF="node5.html">informaction</A></DIV>
+<!--End of Navigation Panel-->
+<ADDRESS>
+aleix
+2017-07-03
+</ADDRESS>
+</BODY>
+</HTML>

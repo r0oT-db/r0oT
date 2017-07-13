@@ -1,0 +1,435 @@
+\batchmode
+\documentclass[onecolumn]{article}
+\RequirePackage{ifthen}
+
+ 
+\usepackage[utf8]{inputenc} 
+\usepackage{abstract} 
+\usepackage{graphicx} 
+\usepackage[font={footnotesize}]{caption}
+\usepackage{wrapfig,framed}
+\usepackage[margin=1.55cm]{geometry} 
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
+\makeatletter
+
+%
+\renewcommand{\abstractname}{} %
+%
+\renewcommand{\absnamepos}{empty} %
+\title{\Huge r0oT \\
+\vspace{0.4 cm} \small a network to achieve global coordination\\and true civilization. 
+(Manifestum v2.3)} 
+
+
+\usepackage[dvips]{color}
+
+
+\pagecolor[gray]{.7}
+
+\usepackage[]{inputenc}
+
+
+
+\makeatletter
+\AtBeginDocument{\makeatletter
+\input /home/aleix/world/spirit/r0oT/manifestum_2/r0oTv2.3.aux
+\makeatother
+}
+
+\makeatletter
+\count@=\the\catcode`\_ \catcode`\_=8 
+\newenvironment{tex2html_wrap}{}{}%
+\catcode`\<=12\catcode`\_=\count@
+\newcommand{\providedcommand}[1]{\expandafter\providecommand\csname #1\endcsname}%
+\newcommand{\renewedcommand}[1]{\expandafter\providecommand\csname #1\endcsname{}%
+  \expandafter\renewcommand\csname #1\endcsname}%
+\newcommand{\newedenvironment}[1]{\newenvironment{#1}{}{}\renewenvironment{#1}}%
+\let\newedcommand\renewedcommand
+\let\renewedenvironment\newedenvironment
+\makeatother
+\let\mathon=$
+\let\mathoff=$
+\ifx\AtBeginDocument\undefined \newcommand{\AtBeginDocument}[1]{}\fi
+\newbox\sizebox
+\setlength{\hoffset}{0pt}\setlength{\voffset}{0pt}
+\addtolength{\textheight}{\footskip}\setlength{\footskip}{0pt}
+\addtolength{\textheight}{\topmargin}\setlength{\topmargin}{0pt}
+\addtolength{\textheight}{\headheight}\setlength{\headheight}{0pt}
+\addtolength{\textheight}{\headsep}\setlength{\headsep}{0pt}
+\setlength{\textwidth}{349pt}
+\newwrite\lthtmlwrite
+\makeatletter
+\let\realnormalsize=\normalsize
+\global\topskip=2sp
+\def\preveqno{}\let\real@float=\@float \let\realend@float=\end@float
+\def\@float{\let\@savefreelist\@freelist\real@float}
+\def\liih@math{\ifmmode$\else\bad@math\fi}
+\def\end@float{\realend@float\global\let\@freelist\@savefreelist}
+\let\real@dbflt=\@dbflt \let\end@dblfloat=\end@float
+\let\@largefloatcheck=\relax
+\let\if@boxedmulticols=\iftrue
+\def\@dbflt{\let\@savefreelist\@freelist\real@dbflt}
+\def\adjustnormalsize{\def\normalsize{\mathsurround=0pt \realnormalsize
+ \parindent=0pt\abovedisplayskip=0pt\belowdisplayskip=0pt}%
+ \def\phantompar{\csname par\endcsname}\normalsize}%
+\def\lthtmltypeout#1{{\let\protect\string \immediate\write\lthtmlwrite{#1}}}%
+\newcommand\lthtmlhboxmathA{\adjustnormalsize\setbox\sizebox=\hbox\bgroup\kern.05em }%
+\newcommand\lthtmlhboxmathB{\adjustnormalsize\setbox\sizebox=\hbox to\hsize\bgroup\hfill }%
+\newcommand\lthtmlvboxmathA{\adjustnormalsize\setbox\sizebox=\vbox\bgroup %
+ \let\ifinner=\iffalse \let\)\liih@math }%
+\newcommand\lthtmlboxmathZ{\@next\next\@currlist{}{\def\next{\voidb@x}}%
+ \expandafter\box\next\egroup}%
+\newcommand\lthtmlmathtype[1]{\gdef\lthtmlmathenv{#1}}%
+\newcommand\lthtmllogmath{\dimen0\ht\sizebox \advance\dimen0\dp\sizebox
+  \ifdim\dimen0>.95\vsize
+   \lthtmltypeout{%
+*** image for \lthtmlmathenv\space is too tall at \the\dimen0, reducing to .95 vsize ***}%
+   \ht\sizebox.95\vsize \dp\sizebox\z@ \fi
+  \lthtmltypeout{l2hSize %
+:\lthtmlmathenv:\the\ht\sizebox::\the\dp\sizebox::\the\wd\sizebox.\preveqno}}%
+\newcommand\lthtmlfigureA[1]{\let\@savefreelist\@freelist
+       \lthtmlmathtype{#1}\lthtmlvboxmathA}%
+\newcommand\lthtmlpictureA{\bgroup\catcode`\_=8 \lthtmlpictureB}%
+\newcommand\lthtmlpictureB[1]{\lthtmlmathtype{#1}\egroup
+       \let\@savefreelist\@freelist \lthtmlhboxmathB}%
+\newcommand\lthtmlpictureZ[1]{\hfill\lthtmlfigureZ}%
+\newcommand\lthtmlfigureZ{\lthtmlboxmathZ\lthtmllogmath\copy\sizebox
+       \global\let\@freelist\@savefreelist}%
+\newcommand\lthtmldisplayA{\bgroup\catcode`\_=8 \lthtmldisplayAi}%
+\newcommand\lthtmldisplayAi[1]{\lthtmlmathtype{#1}\egroup\lthtmlvboxmathA}%
+\newcommand\lthtmldisplayB[1]{\edef\preveqno{(\theequation)}%
+  \lthtmldisplayA{#1}\let\@eqnnum\relax}%
+\newcommand\lthtmldisplayZ{\lthtmlboxmathZ\lthtmllogmath\lthtmlsetmath}%
+\newcommand\lthtmlinlinemathA{\bgroup\catcode`\_=8 \lthtmlinlinemathB}
+\newcommand\lthtmlinlinemathB[1]{\lthtmlmathtype{#1}\egroup\lthtmlhboxmathA
+  \vrule height1.5ex width0pt }%
+\newcommand\lthtmlinlineA{\bgroup\catcode`\_=8 \lthtmlinlineB}%
+\newcommand\lthtmlinlineB[1]{\lthtmlmathtype{#1}\egroup\lthtmlhboxmathA}%
+\newcommand\lthtmlinlineZ{\egroup\expandafter\ifdim\dp\sizebox>0pt %
+  \expandafter\centerinlinemath\fi\lthtmllogmath\lthtmlsetinline}
+\newcommand\lthtmlinlinemathZ{\egroup\expandafter\ifdim\dp\sizebox>0pt %
+  \expandafter\centerinlinemath\fi\lthtmllogmath\lthtmlsetmath}
+\newcommand\lthtmlindisplaymathZ{\egroup %
+  \centerinlinemath\lthtmllogmath\lthtmlsetmath}
+\def\lthtmlsetinline{\hbox{\vrule width.1em \vtop{\vbox{%
+  \kern.1em\copy\sizebox}\ifdim\dp\sizebox>0pt\kern.1em\else\kern.3pt\fi
+  \ifdim\hsize>\wd\sizebox \hrule depth1pt\fi}}}
+\def\lthtmlsetmath{\hbox{\vrule width.1em\kern-.05em\vtop{\vbox{%
+  \kern.1em\kern0.8 pt\hbox{\hglue.17em\copy\sizebox\hglue0.8 pt}}\kern.3pt%
+  \ifdim\dp\sizebox>0pt\kern.1em\fi \kern0.8 pt%
+  \ifdim\hsize>\wd\sizebox \hrule depth1pt\fi}}}
+\def\centerinlinemath{%
+  \dimen1=\ifdim\ht\sizebox<\dp\sizebox \dp\sizebox\else\ht\sizebox\fi
+  \advance\dimen1by.5pt \vrule width0pt height\dimen1 depth\dimen1 
+ \dp\sizebox=\dimen1\ht\sizebox=\dimen1\relax}
+
+\def\lthtmlcheckvsize{\ifdim\ht\sizebox<\vsize 
+  \ifdim\wd\sizebox<\hsize\expandafter\hfill\fi \expandafter\vfill
+  \else\expandafter\vss\fi}%
+\providecommand{\selectlanguage}[1]{}%
+\makeatletter \tracingstats = 1 
+
+
+\begin{document}
+\pagestyle{empty}\thispagestyle{empty}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hsize=\the\hsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength vsize=\the\vsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hoffset=\the\hoffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength voffset=\the\voffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topmargin=\the\topmargin}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topskip=\the\topskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headheight=\the\headheight}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headsep=\the\headsep}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength parskip=\the\parskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength oddsidemargin=\the\oddsidemargin}\lthtmltypeout{}%
+\makeatletter
+\if@twoside\lthtmltypeout{latex2htmlLength evensidemargin=\the\evensidemargin}%
+\else\lthtmltypeout{latex2htmlLength evensidemargin=\the\oddsidemargin}\fi%
+\lthtmltypeout{}%
+\makeatother
+\setcounter{page}{1}
+\onecolumn
+
+% !!! IMAGES START HERE !!!
+
+\stepcounter{section}
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{framed38}%
+\begin{framed}
+% latex2html id marker 38
+
+    \centering
+    \includegraphics[scale=0.6]{01.arrows.eps}
+    \caption{Toy model for the need of human coordination. We have 
+depicted a chamber separated in two parts by a moving piston. On the 
+left there are many disordered arrows pointing at random directions. The 
+arrows represent forces, so for total randomness the total 
+force becomes zero. The temperature on the left is high, which means a great reservoir of
+energy but in an unusable form. On the right we have represented four single forces, 
+the main powers now in charge of the world, in a perfectly coordinated push 
+to have most of the chamber (the world or its wealth) available for them. The temperature
+on the right is clearly very low, without any hint of randomness. On the left 
+part of the chamber there is still some space left because the 
+disorganized forces produce some pressure, which is transmitted to the piston, as molecules in 
+a gas do. If the right-arrows push too hard, the temperature on the left 
+part of the chamber increases even more and so does its pressure, until some 
+suffocating equilibrium is achieved. If the temperature of the left arrows increases 
+for whatever reasons, as in a violent revolution, its pressure over the right-arrows increases as well, 
+and humanity can gain some part of the chamber, but not much. What 
+humanity, and the whole ecosystem needs is a de-thermalization of the 
+left-arrows, so they can become perfectly organized, pushing to the right. You 
+are probably one of these left-arrows right now, so why not aligning with 
+the rest and start doing the {\it right} thing? If we achieve this 
+state, the whole chamber will be available to all, and the current 
+powers will be modified in such a way that they will work for the whole, 
+not for a separate space of their own. So, instead of growing hot, in a revolutionary way, humanity needs a 
+rational cooling until it freezes to a non-random situation. A smooth renaissance with critical thinking as
+our main tool. We need to 
+stop our lives for a moment, think with cold minds, and realize that hot responses are not 
+efficient. Of course, not responding is not an option either! Only a pacific and illustrated transition from disorder to order is able to overcome 
+the problems that otherwise will strangle us. But how is such a difficult and necessary transition achieved?}
+ \end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline379}%
+$7\cdot 10^9$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline381}%
+$10^{13}$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{framed62}%
+\begin{framed}
+% latex2html id marker 62
+
+    \centering
+    \includegraphics[scale=0.7]{02.trees.eps}
+    \caption{Simplified schematics of branching examples. From left to 
+right and up to bottom: 1.Trees develop branches and leaves exhibit 
+branched nerve systems. Roots also are branched. In general, plants 
+usually grow and develop using fractal-like branching systems. 2.Rivers 
+converge until huge quantities of water are collected and delivered back to the sea. 
+3.Air in lungs goes through a sophisticated branched system to bring 
+oxygen molecules and expel carbon dioxide to and from every single red 
+blood cell. 4.Fraudulent pyramid schemes follow branching structures as 
+well, but don't be afraid because r0oT is not one of these frauds. You can join and check this by yourself. 
+5.Blood reaches each cell of our bodies and is collected from each of them 
+thanks to an extremely branched system of arteries and veins: the 
+circulatory system. 6.Snowflakes are beautiful examples of branching and 
+symmetry. A good metaphor of what we need today: a coldly planned growth following a beautiful pattern to bring the ice poles back on Earth. 
+The question is, how can we exactly grow such an ambitious structure?}
+\end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{framed72}%
+\begin{framed}
+% latex2html id marker 72
+
+    \centering
+    \includegraphics[scale=0.17]{03.growth.eps}
+    \caption{Growth of the first 5 layers of the r0oT network. Circles 
+are nodes, occupied by a single person. Lines are connections, who will 
+be performed through emails or other means of communication. In gray we 
+mark some stations, the units of discussion and action. From left to 
+right and top to bottom: 1.Layer 1 is formed by a single person, the 
+node 1.1. Notice the nomenclature: the first digit indicates layer, 
+while the second is for the membership within the layer. 2.The second 
+layer involves two people, the nodes 2.1 and 2.2. Notice that the three 
+depicted members form the first station, s1.1. The nomenclature for 
+stations is as follows: first begin with `s', which denotes station, and 
+then the name or address of the station agent. 3.In the third layer we 
+add 6 more people, 3 of them to one branch and the other 3 to another 
+branch. 4.The fourth layer involves 24 new people, spread in 6 
+stations. 5.The fifth people needs 120 new people to be spread 
+in 24 stations. Notice how rapidly the population grows in each layer. 
+Pictures beyond layer 6 are almost unrenderable.
+}
+\end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{framed95}%
+\begin{framed}
+% latex2html id marker 95
+
+    \centering
+    \includegraphics[scale=0.5]{04.informaction.eps}
+    \caption{Scheme representing the flows of informaction through the human mind of a stick figure. The
+sources of manipulated information arrive to the mind. If these memes do not encounter 
+Critical Thinking (CT) resistance, they develop into actions that mostly benefit the meme's authors, not the subject acting. In the same way as a small bird that feeds a relatively giant cuckoo's baby even if
+it is blatantly clear that it is not its child \cite{cuckoo}. In many ways we are even more blatantly
+manipulated that those birds. However, if these memes encounter CT resistance, they
+will not easily progress into actions that favor them, so they will neither reproduce nor
+benefit their remote authors. Here, red means manipulation flow, while green is used for
+freedom (free from manipulation). Depending on how free is our output we will feed
+a red feedback mechanism, benefiting the current powers, or a green feedback
+mechanism, in which other powers, better for Gaia and the people, can appear. Many
+people think that people are evil, but this is just a very red meme! The truth
+is that people are neither evil nor good in an intrinsic way, but strongly
+manipulable, ductile and flexible. We need to help each other to bend our wrongly supposed
+evil into good actual will. But how can informaction flow following the green feedback loop in order to raise our CT
+and, as a consequence, our own freedom?}
+\end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{framed118}%
+\begin{framed}
+% latex2html id marker 118
+
+    \centering
+    \includegraphics[scale=0.3]{05.speed.eps}
+    \caption{Infographic of some details of the r0oT network. The three left color circles represent
+the angular and radial flows that informaction acquires. The black circles on the left show what
+we mean by angular and radial directions. In the middle column we find the
+numbers of how many people can be in each layer, as well as the percentage of the current total
+population of about 7.4 billion people. Notice how, reaching layer 11 we could acquire a high
+degree of coordination while involving about half of 1\%. We have also depicted two radial
+arrows representing the radial gradient of abstraction/specificity that can naturally appear in the
+network. Inner layers will probably tend to deal with more global topics while outer
+layers will probably deal with more local, direct, practical subjects. However,
+the structure of r0oT is thought in such a way that inner layers also act as propagators
+of local topics while local layers act as promoters of global issues. 
+There is also a radial arrow depicting locality. This means that the network has global
+inner layers, with their members as mixed as possible throughout the world, while
+external layers will engineered to be local, where network neighbors will be also real world
+neighbors. Four colored radial arrows represent the 4 speeds and processing depths
+of the reports: green for slow speed and high processing, yellow for medium speed
+and medium processing, orange for high speed and low processing and red for maximum
+speed and minimum processing. Every choice has a price. Now we move to what most people, in
+layer 13, will experience by participating in r0oT.
+}
+\end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{framed127}%
+\begin{framed}
+% latex2html id marker 127
+
+    \centering
+    \includegraphics[scale=0.55]{06.democracy.eps}
+    \caption{Depiction of local vs global democracy. What affects a single 
+station is voted in the station. What affects a branch must be voted by the 
+whole branch. What affects the whole network must be voted by everyone. On the
+right we have depicted some branches with dashed red lines. Branches always stem
+from a specific station. Local
+democracy allows the system to be very efficient while at the same time
+to be democratic, but global democracy ensures that the same principles are
+applied everywhere. Only in a world where the rights and obligations are
+the same to everyone we can speak of true justice and democracy. In our
+current world, there are many different countries with many different sets
+of rights and laws, and it is not just that some are more fortunate than
+others by the mere accident of being born here or there: it is that in the
+countries with more `freedom' and `rights', we take advantage of the other
+`lesser' countries to have cheap workers under unfair conditions so we can
+obtain cheap and nice goods to buy. In this context, Gaia, the Earth, is the
+last country on the list, the country that nobody takes care of, the one
+that offers the cheapest products. We need to revert this order and put
+Gaia first.    
+}
+\end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{framed134}%
+\begin{framed}
+% latex2html id marker 134
+
+    \centering
+    \includegraphics[scale=0.45]{07.mobility.eps}
+    \caption{Radial and angular mobility within the network. Radial permutations are
+performed by local democracy while angular permutations are performed upon mutual 
+agreement of the two willing members.}
+\end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{framed148}%
+\begin{framed}
+% latex2html id marker 148
+
+    \centering
+    \includegraphics[scale=0.8]{08.immunity_growth.eps}
+    \caption{Depiction of the first four layers of the i1 network. On the left we show
+the nodes (hexagons to distinguish from the circles of the main network) and their
+connections. We also see that the nomenclature is the same as in the main network except
+for the fact that we add the label i1 as the first 2 digits. On the left we can see the
+stations that i1 members form, applying the same principles as in the main system.
+}
+\end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{framed155}%
+\begin{framed}
+% latex2html id marker 155
+
+    \centering
+    \includegraphics[scale=0.7]{09.immunity.eps}
+    \caption{Coupling of the main and the i1 networks. The main network is depicted
+in black with circular nodes while the i1 network is depicted in green with hexagonal
+nodes. The stations painted here are those of the main network, remarking how in each station there
+is always present an immunity member of i1. We can see a side note pointing to the
+possibility of building further immunity networks, i2, i3 and so on, in order to 
+reinforce the robustness of the whole system. For now we will try only with i1, but
+if necessary we can build the others. If they were to be created, they would have
+again the same structure as the other two, and the coupling would be very simple: the
+i(n+1) network would couple to the i(n) network as the i1 would couple to the main system. 
+}
+\end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{framed172}%
+\begin{framed}
+% latex2html id marker 172
+
+    \centering
+    \includegraphics[scale=0.7]{10.specialists.eps}
+    \caption{Specialist networks. We show 7 different specialist networks. We don't
+show nomenclature even if it is simple enough: add a `sp' as a prefix and follow the
+usual nomenclature. Immunity-specialist networks are only shown in the orange network,
+and we don't show nomenclature either, which would have
+the prefix spi1. As a suffix, all of them will have the name of the specialty. For
+example, we may have sp.2.3.farming, which is the 2.3 node of the farming network.
+Or sps.3.2.biology, which is the 3.2 station of the biology network. And so on. Notice
+how there is a specialist at each station at a given visited branch. And notice as well
+how the visits jump from one branch to the next in a counterclockwise angular fashion.
+Depending on how many members the network has, it has a greater or lower degree, which
+just indicates the main layer at which it attaches.  
+}
+\end{framed}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+
+\end{document}
